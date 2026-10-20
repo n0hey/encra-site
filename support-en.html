@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encra — Support</title>
+<meta name="description" content="Help and contact for Encra: sync, subscriptions, AI, advertising.">
+<style>
+  :root { color-scheme: light dark; --bg: #f2f2f7; --card: #ffffff; --text: #1c1c1e; --muted: #6c6c70; --line: #d1d1d6; --todo-bg: #fff4c2; --todo-line: #c9a400; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000000; --card: #1c1c1e; --text: #f2f2f7; --muted: #a1a1a6; --line: #38383a; --todo-bg: #3d3300; --todo-line: #e6c300; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust: 100%; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; font-size: 14px; color: var(--muted); margin-bottom: 28px; }
+  nav strong { color: var(--text); font-size: 16px; margin-right: auto; }
+  a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: currentColor; }
+  nav a[aria-current] { color: var(--text); font-weight: 600; text-decoration: none; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 18px; margin: 36px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; }
+  .lead { color: var(--muted); margin-bottom: 20px; }
+  .card { background: var(--card); border-radius: 16px; padding: 16px 18px; margin: 16px 0; }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  details { background: var(--card); border-radius: 12px; padding: 12px 16px; margin: 8px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details[open] summary { margin-bottom: 8px; }
+  details p:last-child, details ul:last-child { margin-bottom: 0; }
+  .todo { background: var(--todo-bg); outline: 1px dashed var(--todo-line); border-radius: 4px; padding: 0 4px; font-weight: 600; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<nav>
+  <strong>Encra</strong>
+  <a href="privacy-en.html">Privacy</a>
+  <a href="terms-en.html">Terms of Use</a>
+  <a href="support-en.html" aria-current="page">Support</a>
+  <a href="support-fr.html" lang="fr" hreflang="fr">Français</a>
+</nav>
+
+<h1>Support</h1>
+<p class="lead">A bug, a question, an idea? We read every message.</p>
+
+<div class="card">
+  <p><strong>Write to us:</strong> <a href="mailto:support@encra.app">support@encra.app</a></p>
+  <p>In the app, you can also use “Contact us” on the Profile page: the message is pre-filled with your device model and system version.</p>
+  <p>To help us help you quickly, include:</p>
+  <ul>
+    <li>your device (iPhone, iPad or Mac) and its iOS, iPadOS or macOS version;</li>
+    <li>your Encra version (app Settings → About);</li>
+    <li>what you were doing, what happened, and what you expected. A screenshot helps a lot.</li>
+  </ul>
+  <p>Never send us your Apple password or payment details: we don’t need them.</p>
+</div>
+
+<h2>Sync and data</h2>
+<details>
+  <summary>How do I get my courses on my iPhone, iPad and Mac?</summary>
+  <p>Turn on “iCloud Sync” in Encra’s settings on each device, with the same Apple Account. Also check that iCloud Drive is on in iOS Settings → your name → iCloud. The first sync can take a few minutes.</p>
+</details>
+<details>
+  <summary>Is my data saved if I delete the app?</summary>
+  <p>Yes if iCloud Sync is on: you get it back by reinstalling the app with the same Apple Account. Otherwise it only exists on the device, and deleting the app deletes it.</p>
+</details>
+<details>
+  <summary>Can Encra see my courses?</summary>
+  <p>No. There is no Encra account and your courses are not stored on our servers. When you use the AI, the text involved passes through our server to Claude (Anthropic) without being stored there. Everything is detailed in the <a href="privacy-en.html">Privacy Policy</a>.</p>
+</details>
+<details>
+  <summary>How do I erase all my data?</summary>
+  <p>Delete the app from each device, then erase its iCloud data in iOS Settings → your name → iCloud → Manage Storage → Encra. The few anonymous technical records on our server delete themselves (see the Privacy Policy, §4).</p>
+</details>
+
+<h2>Subscriptions and purchases</h2>
+<details>
+  <summary>I bought a subscription but the app is still on Free.</summary>
+  <p>Check your connection, then open the plans page and tap “Restore purchases”. Make sure you use the same Apple Account as for the purchase. If nothing changes, write to us.</p>
+</details>
+<details>
+  <summary>How do I cancel my subscription?</summary>
+  <p>On iPhone or iPad: Settings → your name → Subscriptions → Encra. On Mac: App Store → your name → Account Settings → Subscriptions. Deleting the app does not cancel the subscription. It stays active until the end of the paid period.</p>
+</details>
+<details>
+  <summary>How do I get a refund?</summary>
+  <p>Payments go through Apple, which also handles refunds: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. We can’t issue refunds ourselves.</p>
+</details>
+<details>
+  <summary>What’s the difference between Free, Essential and Pro?</summary>
+  <p>Cards, quizzes, reviews and course import are unlimited in every plan. Essential and Pro add more AI each month, the note editor without limits, per-subject statistics, timetable import from a photo, and remove ads. Details and prices are in the app, on the plans page.</p>
+</details>
+
+<h2>Artificial intelligence</h2>
+<details>
+  <summary>The AI made a mistake in a card.</summary>
+  <p>It can happen: AI-generated content can contain mistakes. Review the cards and fix them directly in the editor. If a mistake keeps coming back on a type of course, write to us with an example.</p>
+</details>
+<details>
+  <summary>“You’ve reached your AI limit for this month”</summary>
+  <p>Each plan includes a monthly amount of AI. It comes back on the 1st of the month. Subscribers can buy a top-up in the meantime. In the free version, the AI may also be paused until the 1st if the shared budget for free accounts has run out.</p>
+</details>
+<details>
+  <summary>Generation fails or stops.</summary>
+  <p>The AI needs an internet connection. Check your connection and try again. If it keeps happening, write to us with the approximate time and the type of document.</p>
+</details>
+
+<h2>Advertising</h2>
+<details>
+  <summary>Why is there an ad?</summary>
+  <p>The banner (iPhone and iPad, free version) helps pay for the free AI. It never appears full screen or during a review or a quiz, and it goes away with Essential or Pro.</p>
+</details>
+<details>
+  <summary>How do I change my ad tracking choice?</summary>
+  <p>iOS Settings → Privacy &amp; Security → Tracking → Encra. Declining changes nothing about how the app works; ads are simply less targeted.</p>
+</details>
+
+<footer>
+  Encra · <a href="privacy-en.html">Privacy</a> · <a href="terms-en.html">Terms of Use</a>
+</footer>
+</main>
+</body>
+</html>
