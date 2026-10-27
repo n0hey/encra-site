@@ -44,10 +44,10 @@
 </nav>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: October 20, 2026</p>
+<p class="updated">Last updated: October 27, 2026</p>
 
 <div class="card">
-  <p><strong>In short.</strong> Encra has no user account and does not keep your courses on its servers. Your folders, cards, quizzes and notes stay on your device and, if you turn it on, in <strong>your</strong> iCloud. When you use artificial intelligence, the text of the document involved is sent to Claude (Anthropic) through our relay server, just long enough to generate the answer. Photos you import for a course are read on your device: only the recognized text is sent. The free version shows an advertising banner (Google AdMob) on iPhone and iPad. There are no usage analytics.</p>
+  <p><strong>In short.</strong> Encra has no user account and does not keep your courses on its servers. Your folders, cards, quizzes and notes stay on your device and, if you turn it on, in <strong>your</strong> iCloud. When you use artificial intelligence, the text of the document involved is sent to Claude (Anthropic) through our relay server, just long enough to generate the answer. Photos you import for a course are read on your device: only the recognized text is sent. The free version shows an advertising banner (Google AdMob) on iPhone and iPad. Anonymous usage statistics (PostHog, in the European Union) help us improve the app; you can turn them off in Settings.</p>
 </div>
 
 <h2>1. Who is responsible</h2>
@@ -68,9 +68,10 @@
 <ul>
   <li>The <strong>text</strong> of the chosen document or section, its name, and the generation instructions (number of cards, language, level of detail).</li>
   <li>To avoid duplicates, the questions of the cards you already have on those pages.</li>
-  <li><strong>Two cases where an image is sent</strong>, only when you ask for them:
+  <li><strong>Three cases where an image is sent</strong>, only when you ask for them:
     <ul>
       <li>“Generate from the image” on a PDF page that is mostly a diagram or figure: the image of <strong>that page</strong> is sent;</li>
+      <li>in the assistant’s “Course” view, an area you select (rectangle or freehand) that contains too little text, such as a diagram: the image of <strong>that area</strong> (the rectangle around it) is sent, not the whole page;</li>
       <li>importing a timetable from a photo or a PDF (in the planner): the image of the timetable is sent so its classes can be read.</li>
     </ul>
   </li>
@@ -107,38 +108,48 @@
 <p>You can change your choice at any time in iOS Settings → Privacy &amp; Security → Tracking. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from partner apps</a>.</p>
 <p>Encra never sends the content of your courses to Google.</p>
 
-<h2>7. What Encra doesn’t do</h2>
+<h2>7. Anonymous usage statistics</h2>
+<p>To understand how Encra is used and improve it, the app sends <strong>PostHog</strong> (servers in the European Union, in Frankfurt) the screens you open and the actions you take (for example “review finished”, “plans page shown”), along with the device type, the app language and your plan.</p>
+<ul>
+  <li>This data is tied to an <strong>identifier picked at random on the device</strong>, unrelated to your Apple Account or to the advertising identifier.</li>
+  <li>It never contains your name, what you type, or the content of your courses, cards, quizzes or notes. No screen recording, no automatic capture of taps. The IP address of the connection is not kept.</li>
+  <li>RevenueCat sends PostHog, under the same identifier, the subscription events that happen outside the app (renewal, cancellation, refund).</li>
+  <li>It is not used for advertising and is never sold.</li>
+</ul>
+<p>You can turn it off at any time in Settings › Privacy › “Share anonymous statistics”. See <a href="https://posthog.com/privacy">PostHog’s Privacy Policy</a>.</p>
+
+<h2>8. What Encra doesn’t do</h2>
 <ul>
   <li>No account, no sign-up, no email address requested.</li>
-  <li>No usage analytics or audience measurement tools.</li>
   <li>No selling of data.</li>
   <li>No location, no access to your contacts.</li>
 </ul>
 <p>The camera is only used when you photograph a course or a timetable.</p>
 
-<h2>8. When you write to us</h2>
+<h2>9. When you write to us</h2>
 <p>If you contact support by email (including with “Contact us” in the app, which adds your device model and system version), we receive your email address and your message. They are used only to answer you and are deleted once no longer needed, at the latest two years after the last exchange.</p>
 
-<h2>9. Legal basis</h2>
-<p>For people in Switzerland and the European Union: requests to the AI, sync, purchase management and support replies are necessary to provide the service you ask for (performance of a contract); abuse prevention relies on our legitimate interest in protecting the service; personalized advertising relies on your consent, which you can withdraw at any time.</p>
+<h2>10. Legal basis</h2>
+<p>For people in Switzerland and the European Union: requests to the AI, sync, purchase management and support replies are necessary to provide the service you ask for (performance of a contract); abuse prevention relies on our legitimate interest in protecting the service; anonymous usage statistics rely on our legitimate interest in improving the app (you can object by turning them off in Settings); personalized advertising relies on your consent, which you can withdraw at any time.</p>
 
-<h2>10. Transfers outside Switzerland and the European Union</h2>
-<p>Anthropic, Vercel, RevenueCat and Google may process data in the United States. These transfers are covered by the safeguards those companies provide (the European Commission’s standard contractual clauses, recognized by Switzerland, or Data Privacy Framework certification).</p>
+<h2>11. Transfers outside Switzerland and the European Union</h2>
+<p>Anthropic, Vercel, RevenueCat and Google may process data in the United States. PostHog keeps usage statistics in the European Union. These transfers are covered by the safeguards those companies provide (the European Commission’s standard contractual clauses, recognized by Switzerland, or Data Privacy Framework certification).</p>
 
-<h2>11. Your rights</h2>
+<h2>12. Your rights</h2>
 <p>You can ask to access, correct or delete your data, or object to its processing, by writing to <a href="mailto:support@encra.app">support@encra.app</a>. Because Encra has no account, we don’t know who you are: the server’s technical data is anonymous and we generally can’t link it to you.</p>
 <p>In practice, you stay in control directly:</p>
 <ul>
   <li>deleting a folder, deck or document in the app removes it from the device and, if sync is on, from your iCloud;</li>
   <li>you can erase Encra’s iCloud data in iOS Settings → your name → iCloud → Manage Storage;</li>
-  <li>the relay server’s technical data deletes itself after the periods listed in §4.</li>
+  <li>the relay server’s technical data deletes itself after the periods listed in §4;</li>
+  <li>usage statistics can be turned off in Settings › Privacy.</li>
 </ul>
 <p>You can also lodge a complaint with a data protection authority: in Switzerland, the Federal Data Protection and Information Commissioner (FDPIC); in the European Union, the authority of your country.</p>
 
-<h2>12. Age</h2>
+<h2>13. Age</h2>
 <p>Encra is made for high school and university students. It is not intended for children under 13. If you are under the age of digital consent in your country (16 in most European Union countries), ask a parent before using the AI or accepting personalized ads.</p>
 
-<h2>13. Changes</h2>
+<h2>14. Changes</h2>
 <p>If this policy changes, the new version is published on this page with its date. A significant change (for example a new service receiving data) is also mentioned in the app’s release notes.</p>
 
 <footer>
